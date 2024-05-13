@@ -7,7 +7,7 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import toast, { Toaster } from "react-hot-toast";
 import SideBg from "@public/assets/signIn-bg.svg";
-import fetchData from "../utils/core";
+// import fetchData from "../utils/core";
 import "@/app/globals.css";
 import Link from "next/link";
 import { AuthContext } from "@/app/store/Context";

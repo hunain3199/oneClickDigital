@@ -9,9 +9,9 @@ import { useRouter } from "next/navigation";
 import Error from "@public/assets/error.svg";
 import toast, { Toaster } from "react-hot-toast";
 import SideBg from "@public/assets/signUp-bg.svg";
-import fetchData from "../utils/core.js";
+
 import Link from "next/link";
-import { AuthContext } from "@/app/store/Context.js";
+import { AuthContext } from "@/app/store/Context";
 
 function Register() {
   const { updateUserEmail, updatedUserName, updateRegistrationStatus } = useContext(AuthContext);

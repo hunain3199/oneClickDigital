@@ -1,5 +1,6 @@
 import React from "react";
-import Form from "@/app/components/insurance/Bike/Form";
+// import Form from "@/app/components/insurance/Bike/Form";
+import Form from "@/app/components/insurance/Auto/Form";
 import Content from "@/app/components/insurance/Auto/Content";
 
 const Page = () => {
