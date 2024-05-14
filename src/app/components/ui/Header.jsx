@@ -104,14 +104,14 @@ function Header() {
 
             <div className="flex items-center gap-4">
               <div className="flex items-center sm:flex sm:gap-4">
-                {status === "authenticated" && (
-                  <>
+                {/* {status === "authenticated" && ( */}
+                  {/* <> */}
                     <div className="flex items-center gap-3">
                       <Link
                         href={"/profile"}
                         className="text-white transition hover:text-slate-300 whitespace-nowrap "
                       >
-                        Hello,{userName}
+                        {/* Hello,{userName} */}
                       </Link>
                       <button
                         onClick={() => {
@@ -122,11 +122,11 @@ function Header() {
                         Logout
                       </button>
                     </div>
-                  </>
-                )}
+                  {/* </> */}
+                 {/* )} */}
 
-                {status === "unauthenticated" && (
-                  <>
+                {/* {status === "unauthenticated" && (
+                  <> */}
                     <Link
                       href={"/login"}
                       className="rounded-md bg-blue-600  hover:bg-white hover:text-blue-600 px-5 py-2 text-sm font-medium text-white shadow"
@@ -143,8 +143,8 @@ function Header() {
                         Partner&apos;s <br /> Register
                       </Link>
                     </div>
-                  </>
-                )}
+                  {/* </>
+                )} */}
               </div>
 
               {/* Toggle-Btn  */}

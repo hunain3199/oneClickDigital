@@ -4,7 +4,7 @@ const Dashboard = () => {
   return (
     <div className="flex h-screen">
       {/* Sidebar */}
-      <aside className="flex-shrink-0 w-64 text-gray-100 bg-astrosnavy">
+      <aside className="flex-shrink-0 w-64 bg-red-600">
         <div className="flex flex-col justify-between h-full">
           {/* Sidebar Content */}
 

@@ -32,7 +32,8 @@
     "react-hook-form": "^7.51.3",
     "react-hot-toast": "^2.4.1",
     "react-spinners": "^0.13.8",
-    "sharp": "^0.33.2"
+    "sharp": "^0.33.2",
+    "tailwind": "^4.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

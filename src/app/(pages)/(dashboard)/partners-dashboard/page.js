@@ -3,7 +3,7 @@ import Dashboard from "@/app/components/partnerDashboard/Dashboard";
 
 const page = () => {
   return (
-    <div className="bg-slate-600">
+    <div >
       <Dashboard />
     </div>
   );
